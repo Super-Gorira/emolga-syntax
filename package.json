@@ -21,7 +21,7 @@
   "_spec": "https://www.atom.io/api/packages/emolga-syntax/versions/0.0.1/tarball",
   "_where": "/private/var/folders/lh/dsw06hbn2gddxy1p1xkwgd_m0000gn/T/apm-install-dir-118102-17055-e15fbd.5dqz8",
   "bugs": {
-    "url": "https://github.com/Niishi/emolga-syntax/issues"
+    "url": "https://github.com/Super-Gorira/emolga-syntax/issues"
   },
 
   "deprecated": false,
@@ -29,7 +29,7 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "homepage": "https://github.com/Niishi/emolga-syntax#readme",
+  "homepage": "https://github.com/Super-Gorira/emolga-syntax#readme",
   "keywords": [
     "syntax",
     "emolga",
