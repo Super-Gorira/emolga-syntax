@@ -1,47 +1,16 @@
-{
-  "_from": "https://www.atom.io/api/packages/emolga-syntax/versions/0.0.1/tarball",
-  "_id": "emolga-syntax@0.0.1",
-  "_inBundle": false,
-  "_integrity": "sha512-5qy+IvVRd1E0FqzBTjuN6E9oMOjrFS3ne+x/RiCf6Hy1a067PUegNswdbb4o3ZGf8M4avv7ztcX6PwBYn/jqWg==",
-  "_location": "/emolga-syntax",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "remote",
-    "raw": "https://www.atom.io/api/packages/emolga-syntax/versions/0.0.1/tarball",
-    "rawSpec": "https://www.atom.io/api/packages/emolga-syntax/versions/0.0.1/tarball",
-    "saveSpec": "https://www.atom.io/api/packages/emolga-syntax/versions/0.0.1/tarball",
-    "fetchSpec": "https://www.atom.io/api/packages/emolga-syntax/versions/0.0.1/tarball"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://www.atom.io/api/packages/emolga-syntax/versions/0.0.1/tarball",
-  "_shasum": "0a2bbe2771ec987178d1313cf840fe3f8c30d65f",
-  "_spec": "https://www.atom.io/api/packages/emolga-syntax/versions/0.0.1/tarball",
-  "_where": "/private/var/folders/lh/dsw06hbn2gddxy1p1xkwgd_m0000gn/T/apm-install-dir-118102-17055-e15fbd.5dqz8",
-  "bugs": {
-    "url": "https://github.com/Super-Gorira/emolga-syntax/issues"
-  },
-  "deprecated": false,
-  "description": "emolga, I choose you!",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
-  "homepage": "https://github.com/Super-Gorira/emolga-syntax#readme",
+
+  {
+  "name": "emolga-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "emolga,I choose you.",
   "keywords": [
     "syntax",
-    "emolga",
-    "pokemon",
-    "yellow",
     "theme"
   ],
+  "repository": "https://github.com/Super-Gorira/emolga-syntax",
   "license": "MIT",
-  "name": "emolga-syntax",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Super-Gorira/emolga-syntax.git"
-  },
-  "theme": "syntax",
-  "version": "0.1.0"
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
 }
