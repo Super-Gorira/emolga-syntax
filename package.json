@@ -23,7 +23,6 @@
   "bugs": {
     "url": "https://github.com/Super-Gorira/emolga-syntax/issues"
   },
-
   "deprecated": false,
   "description": "emolga, I choose you!",
   "engines": {
@@ -44,5 +43,5 @@
     "url": "git+https://github.com/Super-Gorira/emolga-syntax.git"
   },
   "theme": "syntax",
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
