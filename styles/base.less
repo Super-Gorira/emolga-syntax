@@ -1,10 +1,10 @@
 @import "syntax-variables";
 
 atom-text-editor {
-  color: @syntax-text-color;
+  color: @emolga-black;
 
   .wrap-guide {
-    background-color: @emolga-yellow;
+    background-color: fade(@emolga-yellow,60%);
   }
 
   .indent-guide {
@@ -17,7 +17,7 @@ atom-text-editor {
 
   .gutter {
     background-color: @emolga-black;
-    color: @emolga-white;
+    color: darken(@emolga-white,60%);
 
     .line-number {
       &.cursor-line {
@@ -43,15 +43,16 @@ atom-text-editor {
 
   .cursor {
     width: 32px !important;
-    color: @syntax-cursor-color;
-    background-image: url("atom://pikachu-syntax/styles/emolga.gif");
+    color: @emonga-black;
+    background-image: url("atom://emolga-syntax/styles/emolga.gif");
     background-size: cover;
     background-position-x: right;
+    border-left:2px solid;
 
   }
 
   .selection .region {
-    background-color: fade(@emolga-yellow, 25%);
+    background-color: fade(@emolga-yellow, 40%);
   }
 }
 
@@ -66,7 +67,7 @@ atom-text-editor {
 // Syntax styles
 
 .syntax--comment {
-  color: fade(@emolga-black,25%);
+  color: fade(@emolga-black,45%);
 }
 
 .syntax--keyword {
@@ -312,7 +313,7 @@ atom-text-editor[mini] .scroll-view {
 }
 
 .item-views {
-    background-image: url("atom://pikachu-syntax/styles/emolga.jpg");
+    background-image: url("atom://emolga-syntax/styles/emolga.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     z-index:1;
@@ -322,7 +323,7 @@ atom-text-editor[mini] .scroll-view {
     background-color:@emolga-black;
     background-position: center;
     background-size:cover;
-    opacity: 0.25;
+    opacity: 0.1;
     top: 0;
     left: 0;
     bottom: 0;
