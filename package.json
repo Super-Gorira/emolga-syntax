@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/Niishi/emolga-syntax/issues"
   },
-  "bundleDependencies": false,
+
   "deprecated": false,
   "description": "emolga, I choose you!",
   "engines": {
@@ -41,7 +41,7 @@
   "name": "emolga-syntax",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Niishi/emolga-syntax.git"
+    "url": "git+https://github.com/Super-Gorira/emolga-syntax.git"
   },
   "theme": "syntax",
   "version": "0.0.1"
