@@ -17,16 +17,16 @@ atom-text-editor {
 
   .gutter {
     background-color: @emolga-black;
-    color: darken(@emolga-white,60%);
+    color: darken(@emolga-white,50%);
 
     .line-number {
       &.cursor-line {
         background-color: @emolga-black;
-        color:darken(@emolga-white,25%);
+        color:darken(@emolga-white,15%);
       }
 
       &.cursor-line-no-selection {
-        color: @emolga-white;
+        color: @emolga-yellow;
       }
     }
   }
@@ -34,7 +34,7 @@ atom-text-editor {
   .gutter .line-number.folded,
   .gutter .line-number:after,
   .fold-marker:after {
-    color:@emolga-black;
+    color:@emolga-yellow;
   }
 
   .invisible {
@@ -158,7 +158,7 @@ atom-text-editor {
     &.syntax--variable,
     &.syntax--parameters,
     &.syntax--array {
-      color: @syntax-text-color;
+      color: @green;
     }
 
     &.syntax--heading,
@@ -308,10 +308,6 @@ atom-text-editor {
 
 // editor
 
-//atom-text-editor[mini] .scroll-view {
-  //padding-left: 1px;
-//}
-
 .item-views {
     background-image: url("atom://emolga-syntax/styles/emolga.jpg");
     background-repeat: no-repeat;
@@ -320,7 +316,7 @@ atom-text-editor {
 }
 .item-views:after {
     content: "";
-    background-color:@emolga-black;
+    background-color:@emolga-white;
     background-position: center;
     background-size:cover;
     opacity: 0.2;
